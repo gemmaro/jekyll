@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jekyll VERSION\n"
 "POT-Creation-Date: 2023-04-08 23:22+0900\n"
-"PO-Revision-Date: 2023-04-09 00:03+0900\n"
+"PO-Revision-Date: 2023-04-09 00:23+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -88,39 +88,35 @@ msgstr ""
 
 #. type: Title ##
 #: ../docs/_docs/assets.md:36
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Sass/SCSS"
 msgstr "Sass/SCSS"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:39
-#, fuzzy
 msgid "Jekyll allows you to customize your Sass conversion in certain ways."
-msgstr "Jekyllは、Sassの変換を特定の方法でカスタマイズできるようにします。"
+msgstr "Jekyllでは何らかの方法にSassの変換をカスタマイズできます。"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:44
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Place all your partials in your `sass_dir`, which defaults to\n"
 "`<source>/_sass`. Place your main SCSS or Sass files in the place you want\n"
 "them to be in the output file, such as `<source>/css`. For an example, take\n"
 "a look at [this example site using Sass support in Jekyll][example-sass].\n"
-msgstr "全ての部品を`sass_dir`に配置します。デフォルトは、`<source>/_sass`です。メインのSCSSやSassファイルを、`<source>/css`のような出力後に配置したいフォルダに入れます。例は、[JekyllでSassをサポートしている例][example-sass]を見てください。\n"
+msgstr "全ての部分的なファイルを`sass_dir`に配置してください。既定では`<source>/_sass`です。メインのSCSSやSassファイルを出力後に配置したい場所に置きます。例えば`<source>/css`です。一例として、[JekyllのSass対応を使ったサイトの例][example-sass]を見てください。\n"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:47
-#, fuzzy
 msgid ""
 "If you are using Sass `@import` statements, you'll need to ensure that your "
 "`sass_dir` is set to the base directory that contains your Sass files:"
-msgstr ""
-"Sass `@import`を使用している場合は、`sass_dir`がSassファイルのベースディテク"
-"とりに設定されていることを確認してください。"
+msgstr "Sassの`@import`文を使用している場合は、`sass_dir`がSassファイルを含む基底ディレクトリに設定されていることを確認する必要があるでしょう。"
 
 #. type: Fenced code block (yaml)
 #: ../docs/_docs/assets.md:48
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "sass:\n"
 "    sass_dir: _sass\n"
@@ -130,48 +126,44 @@ msgstr ""
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:55
-#, fuzzy
 msgid ""
 "The Sass converter will default the `sass_dir` configuration option to "
 "`_sass`."
-msgstr "Sassコンバータは`sass_dir`をデフォルトで`_sass`に設定します。"
+msgstr "Sass変換器は`sass_dir`の設定オプションとして`_sass`を既定にしているでしょう。"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:57
-#, fuzzy
 msgid ""
 "[example-sass]: https://github.com/jekyll/jekyll-sass-converter/tree/master/"
 "docs"
-msgstr ""
-"[example-sass]: https://github.com/jekyll/jekyll-sass-converter/tree/master/"
-"docs"
+msgstr "[example-sass]: https://github.com/jekyll/jekyll-sass-converter/tree/master/docs"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:61
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"note info\">\n"
 "  <h5>The <code>sass_dir</code> is only used by Sass</h5>\n"
 "  <p>\n"
 msgstr ""
 "<div class=\"note info\">\n"
-"  <h5><code>sass_dir</code>はSassにのみ使用できます。</h5>\n"
+"  <h5><code>sass_dir</code>はSassのみの使用です</h5>\n"
 "  <p>\n"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:67
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    Note that the <code>sass_dir</code> becomes the load path for Sass imports,\n"
 "    nothing more. This means that Jekyll does not know about these files\n"
 "    directly. Any files here should not contain the empty front matter as\n"
 "    described above. If they do, they'll not be transformed as described above. This\n"
 "    folder should only contain imports.\n"
-msgstr "    <code>sass_dir</code>はSassをインポートするためのロードパスになるだけで、それ以外ではないことに注意してください。Jekyllはこのディレクトリのファイルは知らないということを意味します。ここのファイルには空のfront matterを含めるべきではありません。含んでいたとしても、変換されることはありません。このフォルダは、インポート用のファイルのみです。\n"
+msgstr "    <code>sass_dir</code>はSassをインポートするための読み込みパスになるだけで、それ以上のことはありません。つまりJekyllはこれらのファイルを直接は知らないのです。ここのファイルには前述したような空のフロントマターを含めるべきではありません。含んでいたとしても前述したようには変換されません。このフォルダは、インポート用のファイルのみが含まれます。\n"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:70
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  </p>\n"
 "</div>\n"
@@ -181,15 +173,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:73
-#, fuzzy
 msgid ""
 "You may also specify the output style with the `style` option in your "
 "`_config.yml` file:"
-msgstr "`_config.yml`ファイルの`style`で出力スタイルを指定することもできます。"
+msgstr "`_config.yml`ファイルの`style`オプションで出力スタイルを指定することもできます。"
 
 #. type: Fenced code block (yaml)
 #: ../docs/_docs/assets.md:74
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "sass:\n"
 "    style: compressed\n"
@@ -199,23 +190,17 @@ msgstr ""
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:81
-#, fuzzy
 msgid ""
 "These are passed to Sass, so any output style options Sass supports are "
 "valid here, too."
-msgstr ""
-"これらはSassに渡されるので、Sassがサポートする出力スタイルオプションはすべ"
-"て、ここでも有効です。"
+msgstr "これらはSassに渡されるので、Sassで対応している出力スタイルオプションは全てここでも妥当です。"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:83
-#, fuzzy
 msgid ""
 "For more information on Sass configuration options, see the [Sass "
 "configuration]({{ '/docs/configuration/sass/' | relative_url }}) docs."
-msgstr ""
-"For more information on Sass configuration options, see the [Sass "
-"configuration]({{ '/docs/configuration/sass/' | relative_url }}) docs."
+msgstr "Sassの設定オプションについての詳細は、[Sassの設定]({{ '/docs/configuration/sass/' | relative_url }})のドキュメントを参照してください。"
 
 #. type: Title ##
 #: ../docs/_docs/assets.md:84

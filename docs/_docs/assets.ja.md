@@ -23,53 +23,42 @@ Jekyllはこれらのファイルを他の通常のページと同じように�
 
 ## Sass/SCSS
 
-Jekyll allows you to customize your Sass conversion in certain ways.
+Jekyllでは何らかの方法にSassの変換をカスタマイズできます。
 
-Place all your partials in your `sass_dir`, which defaults to
-`<source>/_sass`. Place your main SCSS or Sass files in the place you want
-them to be in the output file, such as `<source>/css`. For an example, take
-a look at [this example site using Sass support in Jekyll][example-sass].
+全ての部分的なファイルを`sass_dir`に配置してください。既定では`<source>/_sass`です。メインのSCSSやSassファイルを出力後に配置したい場所に置きます。例えば`<source>/css`です。一例として、[JekyllのSass対応を使ったサイトの例][example-sass]を見てください。
 
-If you are using Sass `@import` statements, you'll need to ensure that your
-`sass_dir` is set to the base directory that contains your Sass files:
+Sassの`@import`文を使用している場合は、`sass_dir`がSassファイルを含む基底ディレクトリに設定されていることを確認する必要があるでしょう。
 
 ```yaml
 sass:
     sass_dir: _sass
 ```
 
-The Sass converter will default the `sass_dir` configuration option to
-`_sass`.
+Sass変換器は`sass_dir`の設定オプションとして`_sass`を既定にしているでしょう。
 
 [example-sass]:
 https://github.com/jekyll/jekyll-sass-converter/tree/master/docs
 
 <div class="note info">
-  <h5>The <code>sass_dir</code> is only used by Sass</h5>
+  <h5><code>sass_dir</code>はSassのみの使用です</h5>
   <p>
 
-    Note that the <code>sass_dir</code> becomes the load path for Sass imports,
-    nothing more. This means that Jekyll does not know about these files
-    directly. Any files here should not contain the empty front matter as
-    described above. If they do, they'll not be transformed as described above. This
-    folder should only contain imports.
+    <code>sass_dir</code>はSassをインポートするための読み込みパスになるだけで、それ以上のことはありません。つまりJekyllはこれらのファイルを直接は知らないのです。ここのファイルには前述したような空のフロントマターを含めるべきではありません。含んでいたとしても前述したようには変換されません。このフォルダは、インポート用のファイルのみが含まれます。
 
   </p>
 </div>
 
-You may also specify the output style with the `style` option in your
-`_config.yml` file:
+`_config.yml`ファイルの`style`オプションで出力スタイルを指定することもできます。
 
 ```yaml
 sass:
     style: compressed
 ```
 
-These are passed to Sass, so any output style options Sass supports are
-valid here, too.
+これらはSassに渡されるので、Sassで対応している出力スタイルオプションは全てここでも妥当です。
 
-For more information on Sass configuration options, see the [Sass
-configuration]({{ '/docs/configuration/sass/' | relative_url }}) docs.
+Sassの設定オプションについての詳細は、[Sassの設定]({{ '/docs/configuration/sass/' | relative_url
+}})のドキュメントを参照してください。
 
 ## Coffeescript
 
