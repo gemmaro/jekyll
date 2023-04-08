@@ -62,10 +62,10 @@ Sassの設定オプションについての詳細は、[Sassの設定]({{ '/docs
 
 ## Coffeescript
 
-To enable Coffeescript in Jekyll 3.0 and up you must
+JekyllでCoffeeScriptを有効にするには3.0以上でなければなりません。
 
-* Install the `jekyll-coffeescript` gem
-* Ensure that your `_config.yml` is up-to-date and includes the following:
+* `jekyll-coffeescript` gemをインストールしてください
+* `_config.yml`が最新の状態であり、以下が含まれていることを確認してください。
 
 ```yaml
 plugins:
