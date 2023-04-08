@@ -1,71 +1,22 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (c) 2008-present Tom Preston-Werner and Jekyll contributors
+# Copyright (C) 2014-2020 jekyllrb-ja.
+# Copyright (C) 2023 gemmaro.
 #
-#, fuzzy
+# This file is distributed under the same license as the Jekyll.
+# This translation is based on jekyllrb-ja's[1].
+#
+# [1] https://github.com/jekyllrb-ja/jekyllrb-ja.github.io
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Jekyll VERSION\n"
 "POT-Creation-Date: 2023-04-08 23:22+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-04-08 23:45+0900\n"
+"Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  assets.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  code_of_conduct.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  collections.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  conduct.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  configuration.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  contributing.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  datafiles.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  deployment.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  front-matter.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  github-pages.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  includes.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  index.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  installation.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  layouts.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  liquid.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  markdown-101.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  migrations.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  pages.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  pagination.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  permalinks.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  plugins.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  posts.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  ruby-101.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  static_files.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  structure.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  support.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  themes.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  troubleshooting.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  upgrading.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  usage.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  variables.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  2014-12-17-alfredxing-welcome-to-jekyll-core.md.po (PACKAGE "
-"VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  2016-03-10-making-it-easier-to-contribute-to-jekyll.md.po "
-"(PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  2018-01-02-jekyll-3-7-0-released.md.po (PACKAGE VERSION)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  2018-01-25-jekyll-3-7-2-released.md.po (PACKAGE VERSION)  #-#-#-#-"
-"#\n"
-"#-#-#-#-#  2018-03-14-development-update.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  csv-to-table.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  custom-404-page.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  index.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  navigation.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  orderofinterpretation.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  using-jekyll-with-bundler.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  video-walkthroughs.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  jekyllconf.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  philosophy.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  resources.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  team.md.po (PACKAGE VERSION)  #-#-#-#-#\n"
 
 #. type: YAML Front Matter: permalink
 #: ../docs/_docs/assets.md:1
