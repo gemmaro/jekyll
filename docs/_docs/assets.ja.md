@@ -1,13 +1,9 @@
 ---
 permalink: /docs/assets/
-title: Assets
+title: アセット
 ---
 
-Jekyll provides built-in support for [Sass](https://sass-lang.com/)  and can
-work with [CoffeeScript](https://coffeescript.org/) via a Ruby gem.  In
-order to use them, you must first create a file with the proper extension
-name (one of `.sass`, `.scss`, or `.coffee`) and ***start the file with two
-lines of triple dashes***, like this:
+JekyllはRubyのgemによって、[Sass](https://sass-lang.com/)に組み込みで対応しており、また[CoffeeScript](https://coffeescript.org/)を使用することができます。これらを使用するには、まず適切な拡張子（`.sass`、`.scss`、`.coffee`のうちいずれか）のファイルを作成し、以下のように***2行の3つのダッシュで始まる***ようにする必要があります。
 
 ```sass
 ---
@@ -18,19 +14,11 @@ lines of triple dashes***, like this:
   font-size: 1.2em
 ```
 
-Jekyll treats these files the same as a regular page, in that the output
-file will be placed in the same directory that it came from. For instance,
-if you have a file named `css/styles.scss` in your site's source folder,
-Jekyll will process it and put it in your site's destination folder under
-`css/styles.css`.
+Jekyllはこれらのファイルを他の通常のページと同じように扱い、出力されたファイルは出所と同じディレクトリに配置します。例えば、サイトのソースフォルダに`css/styles.scss`という名前のファイルがあった場合、Jekyllは処理を行い、サイトの出力先のフォルダの中に`css/styles.css`を配置します。
 
 <div class="note info">
-  <h5>Jekyll processes all Liquid filters and tags in asset files</h5>
-  <p>If you are using <a href="https://mustache.github.io">Mustache</a>
-     or another JavaScript templating language that conflicts with
-     the <a href="{{ '/docs/templates/' | relative_url }}">Liquid template syntax</a>, you
-     will need to place <code>{&#37; raw &#37;}</code> and
-     <code>{&#37; endraw &#37;}</code> tags around your code.</p>
+  <h5>Jekyllはアセットファイルの全てのLiquidフィルタとタグを処理します</h5>
+  <p><a href="{{ '/docs/templates/' | relative_url }}">Liquidテンプレート構文</a>と競合する<a href="https://mustache.github.io">Mustache</a>や他のJavaScriptテンプレート言語を使用している場合、コードの前後に<code>{&#37; raw &#37;}</code>タグと<code>{&#37; endraw &#37;}</code>タグを置く必要があります。</p>
 </div>
 
 ## Sass/SCSS

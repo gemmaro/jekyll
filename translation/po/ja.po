@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Jekyll VERSION\n"
 "POT-Creation-Date: 2023-04-08 23:22+0900\n"
-"PO-Revision-Date: 2023-04-08 23:45+0900\n"
+"PO-Revision-Date: 2023-04-09 00:03+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -20,35 +20,29 @@ msgstr ""
 
 #. type: YAML Front Matter: permalink
 #: ../docs/_docs/assets.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "/docs/assets/"
 msgstr "/docs/assets/"
 
 #. type: Title ###
 #: ../docs/_docs/assets.md:1 ../docs/_docs/themes.md:310
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Assets"
-msgstr "Assets"
+msgstr "アセット"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:11
-#, fuzzy
 msgid ""
 "Jekyll provides built-in support for [Sass](https://sass-lang.com/)  and can "
 "work with [CoffeeScript](https://coffeescript.org/) via a Ruby gem.  In "
 "order to use them, you must first create a file with the proper extension "
 "name (one of `.sass`, `.scss`, or `.coffee`) and ***start the file with two "
 "lines of triple dashes***, like this:"
-msgstr ""
-"Jekyllは[Sass](https://sass-lang.com/){:target=\"_blank\"}の組み込みをサポー"
-"トし、Ruby gemで[CoffeeScript](https://coffeescript.org/){:target=\"_blank\"}"
-"を使用することができます。これらを使用するには、適切な拡張子（`.sass`か`."
-"scss`か`.coffee`）のファイルを作成し、下記のように***2行の3つのダッシュで始め"
-"る***必要があります。"
+msgstr "JekyllはRubyのgemによって、[Sass](https://sass-lang.com/)に組み込みで対応しており、また[CoffeeScript](https://coffeescript.org/)を使用することができます。これらを使用するには、まず適切な拡張子（`.sass`、`.scss`、`.coffee`のうちいずれか）のファイルを作成し、以下のように***2行の3つのダッシュで始まる***ようにする必要があります。"
 
 #. type: Fenced code block (sass)
 #: ../docs/_docs/assets.md:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "---\n"
 "---\n"
@@ -66,22 +60,17 @@ msgstr ""
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:26
-#, fuzzy
 msgid ""
 "Jekyll treats these files the same as a regular page, in that the output "
 "file will be placed in the same directory that it came from. For instance, "
 "if you have a file named `css/styles.scss` in your site's source folder, "
 "Jekyll will process it and put it in your site's destination folder under "
 "`css/styles.css`."
-msgstr ""
-"Jekyllはこれらのファイルを他の通常のページと同じように扱い、同じディレクトリ"
-"配置になるように出力先に配置します。例えば、サイトのソースフォルダに`css/"
-"styles.scss`というファイルがあった場合、Jekyllは処理を行い、出力先のフォルダ"
-"に`css/styles.css`を作成します。"
+msgstr "Jekyllはこれらのファイルを他の通常のページと同じように扱い、出力されたファイルは出所と同じディレクトリに配置します。例えば、サイトのソースフォルダに`css/styles.scss`という名前のファイルがあった場合、Jekyllは処理を行い、サイトの出力先のフォルダの中に`css/styles.css`を配置します。"
 
 #. type: Plain text
 #: ../docs/_docs/assets.md:35
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"note info\">\n"
 "  <h5>Jekyll processes all Liquid filters and tags in asset files</h5>\n"
@@ -93,9 +82,8 @@ msgid ""
 "</div>\n"
 msgstr ""
 "<div class=\"note info\">\n"
-"  <h5>JekyllはAssetファイルの全てのLiquidタグとフィルタを処理します。</h5>\n"
-"  <p><a href=\"{{ '/docs/templates/' | relative_url }}\">Liquidテンプレート文法</a>と競合する<a href=\"https://mustache.github.io\" target=\"_blank\">Mustache</a>\n"
-"     や他のJavaScriptテンプレート言語を使用している場合、コードを<code>{&#37; raw &#37;}</code>と<code>{&#37; endraw &#37;}</code>で囲む必要があります。</p>\n"
+"  <h5>Jekyllはアセットファイルの全てのLiquidフィルタとタグを処理します</h5>\n"
+"  <p><a href=\"{{ '/docs/templates/' | relative_url }}\">Liquidテンプレート構文</a>と競合する<a href=\"https://mustache.github.io\">Mustache</a>や他のJavaScriptテンプレート言語を使用している場合、コードの前後に<code>{&#37; raw &#37;}</code>タグと<code>{&#37; endraw &#37;}</code>タグを置く必要があります。</p>\n"
 "</div>\n"
 
 #. type: Title ##

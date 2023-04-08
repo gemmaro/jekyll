@@ -399,7 +399,7 @@ For example, if your theme has a `/_layouts/page.html` file, and a page has
 `_layouts` folder for the `page` layout, and if none exists, will use your
 theme's `page` layout.
 
-### Assets
+### アセット
 
 Any file in `/assets` will be copied over to the user's site upon build
 unless they have a file with the same relative path. You can ship any kind
