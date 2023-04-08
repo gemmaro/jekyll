@@ -3,6 +3,7 @@ version: 4.3.2
 name: Jekyll • Simple, blog-aware, static sites
 description: Transform your plain text into static websites and blogs
 url: https://gemmaro.github.io/jekyll
+baseurl: /jekyll
 repository: https://github.com/gemmaro/jekyll
 timezone: America/Los_Angeles
 twitter:
