@@ -1,1 +1,1 @@
-Sitemap: https://gemmaro.github.io/jekyll/sitemap.xml
+Sitemap: https://gemmaro.github.io/jekyll/jekyll/sitemap.xml
